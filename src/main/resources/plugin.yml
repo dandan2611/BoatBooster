@@ -1,0 +1,12 @@
+name: $name
+version: $version
+main: fr.codinbox.boatbooster.BoatBooster
+description: $description
+load: STARTUP
+authors:
+  - dandan2611
+api-version: "$apiVersion"
+
+commands:
+  booster:
+    permission: boatbooster.admin

@@ -13,11 +13,11 @@ java {
 }
 
 dependencies {
-  paperweight.paperDevBundle("1.20.4-R0.1-SNAPSHOT")
+  paperweight.paperDevBundle("1.20.1-R0.1-SNAPSHOT")
 
-  implementation("com.fasterxml.jackson.core:jackson-core:2.17.0")
-  implementation("com.fasterxml.jackson.core:jackson-databind:2.17.0")
-  implementation("com.fasterxml.jackson.core:jackson-annotations:2.17.0")
+  implementation("com.fasterxml.jackson.core:jackson-core:2.15.0")
+  implementation("com.fasterxml.jackson.core:jackson-databind:2.15.0")
+  implementation("com.fasterxml.jackson.core:jackson-annotations:2.15.0")
 }
 
 tasks {
